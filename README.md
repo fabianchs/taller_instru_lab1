@@ -3,24 +3,39 @@
 El presente laboratorio pretende introducir al estudiante al modelado y calibración de
 señales dinámicas mediante lo siguientes objetivos específicos
 
-
+- Elaborar un modelo matemático de un canal de comunicación.
+- Practicar el uso de herramientas de análisis computacionales.
+- Uso de herramientas de control de versiones.
 
 ## 1. Metodologia
+La metodología para el siguiente laboratorio permite definir los pasos necesarios para alcanzar los resultados propuestos.
 
 ### 1.1 Diseño del experimento
 
-Este módulo corresponde a la máquina de estados del SPI que se encarga de la comunicacion con cualquier periferico que soporte dicho tipo de comunicacion.
+
+- La obtención de un modelo de respuesta en frecuencia de un dispositivo bajo prueba. Se utilizará un micrófono de audio y se repetirá tanto con el micrófono de un celular como el de una laptop.
+
+- Se utilizará el modelo de estimación de respuesta en frecuencia por barrido de frecuencia de una señal sinusoidal. La emisión del audio será con un parlante, este reproducirá un audio que hace un barrido de frecuencia desde 50Hz hasta 5kHz.
+
+- Con las grabaciones se hará el análisis de la respuesta en frecuencia de cada micrófono, ambos audios serán almacenados en formatos sin distorsión por compresión.
+
+- Finalmente se elaborará un método para estimar el SNR de las grabaciones con 1kHz de tono como referencia.
 
 ### 1.2 Adquisicion de datos
+- La adquisición de datos será mediante los micrófonos de la laptop y celular, se asegurará una distancia de 1 a 2 metros entre el parlante y el celular/laptop. Cada audio se almacenará y enviará para su análisis.
 
 ### 1.3 Procesamiento de datos
-
+- Esta parte implica la sincronización del barrido fuente con el barrido experimental, con el fin de comparar exactamente cada punto en frecuencia del audio y así obtener la función de transferencia del audio obtenido. No se modificará la ecualización ni volumen del audio.
+  
 ### 1.4 Analisis y obtencion de funcion de transferencia
-
+- Mediante algún lenguaje de programación se obtendrá un análisis de ganancia de los datos adquiridos a través del tiempo, de esta forma se obtiene la función de transferencia de la comparación entre la referencia y el audio grabado, con esta información es posible generar un gráfico de respuesta en frecuencia, este permitirá visualmente notar si el micrófono tiene algun filtro en su circuito de procesamiento, mediante atenuaciones o ganancias significativas.
+  
 ### 1.5 Comparacion de datos
-
+- Se realizarán comparaciones a partir del audio de referencia con el grabado según el tipo de micrófono, de esta forma se discutirán las diferencias más significativas entre cada función de transferencia, del mismo modo será posible notar el rango de obtención de audio de cada micrófono y los filtros que tengan.
+  
 ### 1.6 Justificacion y conclusion de resultados
-
+- Se describirán las herramientas matemáticas y de programación utilizadas para alcanzar los objetivos propuestos y la explicación que permitió obtener la solución para cada función de transferencia. Del mismo modo se expondrán los objetivos alcanzados y los pasos necesarios que permitieron la realización del laboratorio.
+- 
 ## 2. Cuestionario previo
 
 ### 2.1 ¿Cómo se mide el signal-to-noise ratio (SNR) para una señalanalógica? Brinde un ejemplo
@@ -30,8 +45,18 @@ Este módulo corresponde a la máquina de estados del SPI que se encarga de la c
 ### 2.3 ¿Cómo afecta el ruido térmico al SNR de una señal analógica? ¿Cuántos dBm tiene el ruido térmico para una impedancia de 50Ω para una señal cuyo BW= 20kHz?
 
 ### 2.4 ¿Qué es ruido de cuantización? ¿Bajo qué circunstancias se podría modelar como ruido activo?
+El error de cuantización es la técnica de representar una señal analógica con un número digital, en general es la conversión analógica a digital de una señal en específico.
 
 ### 2.5 ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
+Es determinado por el ruido térmico
+
+### 2.6 ¿Cuáles son las tasas de muestreo más populares para grabaciones de auido? ¿La cantidad de bits por muestra?
+
+### 2.7 ¿Cuales son los formatos de audio cuya compresión o almacenamiento no agrega distorsión?
+
+Algunos de los formatos de audio sin pérdida más conocidos son:FLAC (Free Lossless Audio Codec), ALAC (Apple Lossless Audio Codec), WAV (Waveform Audio File Format), APE (Monkey's Audio).
+
+### 2.8 ¿Cómo se puede utilizar un barrido de frecuencias para modelar la respuesta en frecuencia de un dispositivo bajo prueba (DUT)? Investigue el procedimiento a realizar a cada grabación de audio para tener la estimación de la respuesta en frecuencia
 
 ## 3. Referencias
 [0] David Harris y Sarah Harris. *Digital Design and Computer Architecture. RISC-V Edition.* Morgan Kaufmann, 2022. ISBN: 978-0-12-820064-3
