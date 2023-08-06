@@ -1,4 +1,4 @@
-# Introduccion al taller de instrumentación
+# Introducción al taller de instrumentación
 
 El presente laboratorio pretende introducir al estudiante al modelado y calibración de
 señales dinámicas mediante lo siguientes objetivos específicos
