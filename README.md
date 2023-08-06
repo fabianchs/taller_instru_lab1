@@ -1,4 +1,4 @@
-# Introduccion al taller de instrumentacion
+# Introduccion al taller de instrumentación
 
 El presente laboratorio pretende introducir al estudiante al modelado y calibración de
 señales dinámicas mediante lo siguientes objetivos específicos
@@ -7,7 +7,7 @@ señales dinámicas mediante lo siguientes objetivos específicos
 - Practicar el uso de herramientas de análisis computacionales.
 - Uso de herramientas de control de versiones.
 
-## 1. Metodologia
+## 1. Metodología
 La metodología para el siguiente laboratorio permite definir los pasos necesarios para alcanzar los resultados propuestos.
 
 ### 1.1 Diseño del experimento
@@ -57,12 +57,16 @@ Eso significa que mientras mas alta sea la temperatura, los portadores de carga 
 El ruido termico para una impedancia de 50Ω para una señal a 20kHz a temperatura ambiente es de -89.05dBm [5].
 
 ### 2.4 ¿Qué es ruido de cuantización? ¿Bajo qué circunstancias se podría modelar como ruido activo?
-El error de cuantización es la técnica de representar una señal analógica con un número digital, en general es la conversión analógica a digital de una señal en específico.
+El error de cuantización es la técnica de representar una señal analógica con un número digital, en general es la conversión analógica a digital de una señal en específico [9].
 
 ### 2.5 ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
-Es determinado por el ruido térmico
+Es determinado por el ruido térmico. El ruido térmico o de Johnson es el ruido resultante del movimiento aleatorio de los electrones debido a su agitación térmica. El movimiento da a lugar una corriente aleatoria en consecuencia aparece una tensión de ruido V_r [7].
 
 ### 2.6 ¿Cuáles son las tasas de muestreo más populares para grabaciones de auido? ¿La cantidad de bits por muestra?
+
+La frecuencia de muestreo es la cantidad de muestras que se toman por unidad de tiempo para convertir una señal analógica en digital. A nivel general las frecuencias de muestreo utilizadas en los medios digitales han sido 44.1kHz y 48kHz. 
+Por la parte de los bits, esta define el rango dinámico del sonido, cuanto mayor es la tasa de bits, se dispone de mayores posicione para ubicar la muestra tomada en la onda. El estándar general es de 44.1kHz a 16bits, para grabaciones de mayor calidad se utiliza una de 32bits. [8]
+
 
 ### 2.7 ¿Cuales son los formatos de audio cuya compresión o almacenamiento no agrega distorsión?
 
@@ -87,3 +91,9 @@ Se creará una señal de prueba que contenga un barrido de frecuencia de 50 a 5k
 
 [6] Formatos de audio: Todo lo que Los Músicos deberían Saber para Elegir El Archivo Adecuado (2023b) LANDR Blog. Disponible en: https://blog.landr.com/es/guia-formatos-de-audio/ (Accedido: 06 August 2023). 
 
+[7] UIB. “Ruido”. [En línea]. Disponible en http://dfs.uib.es/GTE/education/telematica/sis_ele_comunicacio/Apuntes/Capitulo%203.pdf
+
+
+[8] Multisononline J. "Frecuencia de muestreo: Qué es y cómo calcularla".  [En línea]. Disponible en: https://multisononline.com/blog/de-analogico-a-digital-frecuencia-de-muestreo-y-tasa-de-bits-n267. Acceso: 6 de agosto de 2023.
+
+[9] M. J. M. Pelgrom, Analog-to-Digital Conversion, 2nd ed. Dordrecht, Netherlands: Springer Science+Business Media, 2013.
