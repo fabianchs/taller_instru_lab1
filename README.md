@@ -21,19 +21,19 @@ La metodología para el siguiente laboratorio permite definir los pasos necesari
 
 - Finalmente se elaborará un método para estimar el SNR de las grabaciones con 1kHz de tono como referencia.
 
-### 1.2 Adquisicion de datos
+### 1.2 Adquisición de datos
 - La adquisición de datos será mediante los micrófonos de la laptop y celular, se asegurará una distancia de 1 a 2 metros entre el parlante y el celular/laptop. Cada audio se almacenará y enviará para su análisis.
 
 ### 1.3 Procesamiento de datos
 - Esta parte implica la sincronización del barrido fuente con el barrido experimental, con el fin de comparar exactamente cada punto en frecuencia del audio y así obtener la función de transferencia del audio obtenido. No se modificará la ecualización ni volumen del audio.
   
-### 1.4 Analisis y obtencion de funcion de transferencia
+### 1.4 Analisis y obtención de función de transferencia
 - Mediante algún lenguaje de programación se obtendrá un análisis de ganancia de los datos adquiridos a través del tiempo, de esta forma se obtiene la función de transferencia de la comparación entre la referencia y el audio grabado, con esta información es posible generar un gráfico de respuesta en frecuencia, este permitirá visualmente notar si el micrófono tiene algun filtro en su circuito de procesamiento, mediante atenuaciones o ganancias significativas.
   
-### 1.5 Comparacion de datos
+### 1.5 Comparación de datos
 - Se realizarán comparaciones a partir del audio de referencia con el grabado según el tipo de micrófono, de esta forma se discutirán las diferencias más significativas entre cada función de transferencia, del mismo modo será posible notar el rango de obtención de audio de cada micrófono y los filtros que tengan.
   
-### 1.6 Justificacion y conclusion de resultados
+### 1.6 Justificación y conclusión de resultados
 - Se describirán las herramientas matemáticas y de programación utilizadas para alcanzar los objetivos propuestos y la explicación que permitió obtener la solución para cada función de transferencia. Del mismo modo se expondrán los objetivos alcanzados y los pasos necesarios que permitieron la realización del laboratorio.
 
 ## 2. Cuestionario previo
@@ -43,7 +43,7 @@ Es la proporción existente entre la potencia de salida de la señal que se tran
 
 Una forma de medirlo es usando un analizador espectral de la señal con la cual se pueda apreciar la forma de la señal y el ruido en el dominio de la frecuencia, se hace una integral de ambas señales y luego se usa la expresión del SNR para obtener el valor final [1].
 
-### 2.2 ¿Cual es el ancho de banda típico para señales de audio? ¿Una señal de audio tiene componente DC?
+### 2.2 ¿Cuál es el ancho de banda típico para señales de audio? ¿Una señal de audio tiene componente DC?
 
 De 20Hz a 20Khz ya que según la capacidad auditiva humana solo es posible escuchar sonidos que se encuentran en el rango de frecuencia mencionado anteriormente [2]. 
 
