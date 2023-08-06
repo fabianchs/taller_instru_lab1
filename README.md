@@ -39,22 +39,22 @@ La metodología para el siguiente laboratorio permite definir los pasos necesari
 ## 2. Cuestionario previo
 
 ### 2.1 ¿Cómo se mide el signal-to-noise ratio (SNR) para una señalanalógica? Brinde un ejemplo
-Es la proporción existente entre la potencia de salida de la señal que se transmite y la potencia del ruido que interfiere con ella, además, se mide en decibeles.
+Es la proporción existente entre la potencia de salida de la señal que se transmite y la potencia del ruido que interfiere con ella, además, se mide en decibeles [0].
 
-Una forma de medirlo es usando un analizador espectral de la señal con la cual se pueda apreciar la forma de la señal y el ruido en el dominio de la frecuencia, se hace una integral de ambas señales y luego se usa la expresión del SNR para obtener el valor final.
+Una forma de medirlo es usando un analizador espectral de la señal con la cual se pueda apreciar la forma de la señal y el ruido en el dominio de la frecuencia, se hace una integral de ambas señales y luego se usa la expresión del SNR para obtener el valor final [1].
 
 ### 2.2 ¿Cual es el ancho de banda típico para señales de audio? ¿Una señal de audio tiene componente DC?
 
-De 20Hz a 20Khz ya que según la capacidad auditiva humana solo es posible escuchar sonidos que se encuentran en el rango de frecuencia mencionado anteriormente. 
+De 20Hz a 20Khz ya que según la capacidad auditiva humana solo es posible escuchar sonidos que se encuentran en el rango de frecuencia mencionado anteriormente [2]. 
 
-Toda señal de audio que no haya sido debidamente limpiada de interferencias de bajas o altas frecuencias, tanto en grabación, mezcla o mastering por medio de filtros, son posibles portadoras de desplazamiento de DC. 
+Toda señal de audio que no haya sido debidamente limpiada de interferencias de bajas o altas frecuencias, tanto en grabación, mezcla o mastering por medio de filtros, son posibles portadoras de desplazamiento de DC [3]. 
 
 ### 2.3 ¿Cómo afecta el ruido térmico al SNR de una señal analógica? ¿Cuántos dBm tiene el ruido térmico para una impedancia de 50Ω para una señal cuyo BW= 20kHz?
 Es un ruido aleatorio que se genera por la agitación térmica de los portadores. Su espectro de frecuencias es plano, es un ruido blanco. Se genera en cualquier elemento que se comporte como una resistencia.
 
-Eso significa que mientras mas alta sea la temperatura, los portadores de carga tendrán una mayor energía (mas ruido), por lo tanto, al captar un sonido mediante un micrófono que se comporta como una resistencia, este aunque su temperatura no sea alta, de igual forma posee portadores de electrones que producen ruido.
+Eso significa que mientras mas alta sea la temperatura, los portadores de carga tendrán una mayor energía (mas ruido), por lo tanto, al captar un sonido mediante un micrófono que se comporta como una resistencia, este aunque su temperatura no sea alta, de igual forma posee portadores de electrones que producen ruido [4].
 
-Una impedancia de 50Ω para una señal a 20kHz a temperatura ambiente es de -89.05dBm.
+Una impedancia de 50Ω para una señal a 20kHz a temperatura ambiente es de -89.05dBm [5].
 
 ### 2.4 ¿Qué es ruido de cuantización? ¿Bajo qué circunstancias se podría modelar como ruido activo?
 El error de cuantización es la técnica de representar una señal analógica con un número digital, en general es la conversión analógica a digital de una señal en específico.
