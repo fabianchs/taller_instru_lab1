@@ -71,5 +71,17 @@ Algunos de los formatos de audio sin pérdida más conocidos son:FLAC (Free Loss
 ### 2.8 ¿Cómo se puede utilizar un barrido de frecuencias para modelar la respuesta en frecuencia de un dispositivo bajo prueba (DUT)? Investigue el procedimiento a realizar a cada grabación de audio para tener la estimación de la respuesta en frecuencia
 
 ## 3. Referencias
-[0] David Harris y Sarah Harris. *Digital Design and Computer Architecture. RISC-V Edition.* Morgan Kaufmann, 2022. ISBN: 978-0-12-820064-3
+[0] R. Alonso. "Relación señal-ruido o SNR en audio: ¿qué es y por qué importa?" HardZone. https://hardzone.es/reportajes/que-es/relacion-senal-ruido-snr-audio/ (accedido el 6 de agosto de 2023). 
+
+[1] Universitat Politècnica de València - UPV. (2022, 4 de abril). Cálculo de la relación señal a interferencia más ruido (SINR) | | UPV [Video]. YouTube. https://www.youtube.com/watch?v=oLeWP9fIoZ8
+
+[2] R. Sousa. "La señal de audio, conceptos y medidas – TM Broadcast". TM Broadcast – Ingeniería y Tecnología broadcast audiovisual. https://tmbroadcast.es/index.php/la-senal-de-audio-conceptos-y-medidas/ (accedido el 6 de agosto de 2023). 
+
+[3] "DC Offset, Lo Que Siempre Quisiste Saber Y Nadie Te Supo Explicar - Sound:check Magazine". Soundcheck Magazine. https://soundcheck.com.mx/dc-offset-lo-que-siempre-quisiste-saber-y-nadie-te-supo-explicar/ (accedido el 6 de agosto de 2023). 
+
+[4] "RUIDO EN AMPLIFICADORES - PCPfiles en www.pcpaudio.com". PCP audio. https://www.pcpaudio.com/pcpfiles/doc_amplificadores/Bajoruido/Bajoruido.php (accedido el 6 de agosto de 2023). 
+
+[5] M. J. M. Pelgrom, "Analog-to-digital-conversion," 2nd ed. Springer, 2013.
+
+
 
