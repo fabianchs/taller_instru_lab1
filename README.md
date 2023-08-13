@@ -76,7 +76,14 @@ Algunos de los formatos de audio sin pérdida más conocidos son:FLAC (Free Loss
 
 Se creará una señal de prueba que contenga un barrido de frecuencia de 50 a 5kHz. Ahora con la utilización de un software de análisis de señales se captura y graba el audio recibido por el dispositivo de prueba. Utilizaremos un analizador de espectro para obtener la respuesta en frecuencia del audio grabado. Por último, se normalizan los datos y se promedian múltiples mediciones para obtener una mayor precisión[2].
 
-## 3. Referencias
+## 3. Resultados
+
+![Alt text](images/plot_audio_original.jpg)
+
+![Alt text](images/plot_audio_phone.jpg)
+
+![Alt text](images/plot_audio_pc.jpg)
+## 4. Referencias
 [0] R. Alonso. "Relación señal-ruido o SNR en audio: ¿qué es y por qué importa?" HardZone. https://hardzone.es/reportajes/que-es/relacion-senal-ruido-snr-audio/ (accedido el 6 de agosto de 2023). 
 
 [1] Universitat Politècnica de València - UPV. (2022, 4 de abril). Cálculo de la relación señal a interferencia más ruido (SINR) | | UPV [Video]. YouTube. https://www.youtube.com/watch?v=oLeWP9fIoZ8
