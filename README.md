@@ -78,9 +78,25 @@ Se creará una señal de prueba que contenga un barrido de frecuencia de 50 a 5k
 
 ## 3. Resultados
 
+Para la obtención de resultados se utilizó un celular y una tablet, posteriormente se utilizó el entorno de matlab para obtener la transformada de Fourier para cada audio, de esta manera se graficó cada grabación y se obtuvo la respuesta en frecuencia respectivamente.
+
+### 3.1 Transformada de Fourier del audio original
+<br>
+
 ![Alt text](images/plot_audio_original.jpg)
 
+### 3.1 Transformada de Fourier del audio grabado con celular
+
+<br>
+
+
 ![Alt text](images/plot_audio_phone.jpg)
+
+
+### 3.1 Transformada de Fourier del audio grabado con laptop
+
+
+<br>
 
 ![Alt text](images/plot_audio_pc.jpg)
 ## 4. Referencias
