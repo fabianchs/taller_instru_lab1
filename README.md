@@ -89,6 +89,8 @@ La formulación para la transformada de Fourier es la siguiente [10]:
 $$ X(f)= \int_{- \infty}^{\infty}x(t)e^{-j2\pi ft}dt $$
 
 Para que exista la transformada de Fourier, sus coeficientes deben sedr finitos, por ende la función debe ser absolutamente integrable y debe converger. La transformada de Fourier permite la ocupación de todo el espectro radioeléctrico, por ende para este laboratorio se aprovechó mediante técnicas de programación la transformada de fourier para obtener la respuesta en frecuencia de los audios [10].
+
+Para permitir el análisis de la respuesta en frecuencia es posible considerar que los celulares y dispositivos electrónicos basan su ancho de banda en un valor cercano al ancho de banda de la voz humana. Lo cual es correcto, desde hace más de 100 años los teléfonos usan un rango de frecuencia limitada de 300Hz a 3.4kHz, a pesar de eso el espectro de frecuencia de la voz humada se extiendde desde 50Hz a 8kHz. En la actualidad ese no es el valor de ancho de banda de los dispositivos actuales, a partir de la introducción de telefonía de voz sobre IP y la capacidad en alta transmisión de las redes es posible permitir un mayor espectro de frecuencia, por lo que el ancho de banda de los dispositivos aumentó de 50Hz 7kHz, esto implica una mayor apreciación de la voz en su ancho de banda [11].
 ### 3.1 Transformada de Fourier del audio original
 <br>
 
@@ -132,3 +134,4 @@ Para que exista la transformada de Fourier, sus coeficientes deben sedr finitos,
 
 [10] Martínez, M. ¿Qué es la transformada de fourier y para qué sirve?. Nobbot. [En línea] Disponible en: https://www.nobbot.com/que-es-la-transformada-de-fourier-y-para-que-sirve/. Acceso 14 de Agosto de 2023.
 
+[11] NFON.  Audio de banda ancha. NFON. [En línea]. Disponible en: https://www.nfon.com/es/get-started/cloud-telephony/lexicon/base-de-conocimiento-destacar/audio-de-banda-ancha . Acceso 14 de Agosto de 2023.
