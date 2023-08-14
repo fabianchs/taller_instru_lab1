@@ -56,10 +56,12 @@ Es un ruido aleatorio que se genera por la agitación térmica de los portadores
 
 Eso significa que mientras mas alta sea la temperatura, los portadores de carga tendrán una mayor energía (mas ruido), por lo tanto, al captar un sonido mediante un micrófono que se comporta como una resistencia, este aunque su temperatura no sea alta, de igual forma posee portadores de electrones que producen ruido [4].
 
-El ruido termico para una impedancia de 50Ω para una señal a 20kHz a temperatura ambiente es de -89.05dBm [5].
+El ruido termico para una impedancia de 50Ω para una señal a 20kHz a temperatura ambiente es de -130,82 dBm [5].
 
 ### 2.4 ¿Qué es ruido de cuantización? ¿Bajo qué circunstancias se podría modelar como ruido activo?
 El error de cuantización es la técnica de representar una señal analógica con un número digital, en general es la conversión analógica a digital de una señal en específico [9].
+
+![Imgcuant](images/SenalRuidoCuantificacion4bits.png)
 
 ### 2.5 ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
 Es determinado por el ruido térmico. El ruido térmico o de Johnson es el ruido resultante del movimiento aleatorio de los electrones debido a su agitación térmica. El movimiento da a lugar una corriente aleatoria en consecuencia aparece una tensión de ruido V_r [7].
