@@ -43,7 +43,7 @@ Es la proporción existente entre la potencia de salida de la señal que se tran
 
 Una forma de medirlo es usando un analizador espectral de la señal con la cual se pueda apreciar la forma de la señal y el ruido en el dominio de la frecuencia, se hace una integral de ambas señales y luego se usa la expresión del SNR para obtener el valor final [1]. A continuacion se muestra la expresion para el calculo del signal-to-noise (SNR).
 
-$10\log_{10} frac{P_{s}}{P_{n}}$
+$$SNR = 10\log_{10} frac{P_{s}}{P_{n}} $$
 
 
 
