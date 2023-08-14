@@ -103,6 +103,8 @@ Con la finalidad de permitir el análisis de la respuesta en frecuencia es posib
 
 ![Alt text](images/plot_audio_phone.jpg)
 
+En la representación gráfica de la Transformada de Fourier del audio capturado mediante el teléfono celular, se evidencia un incremento en la amplitud alrededor de los 100 Hz, seguido de una disminución en un intervalo cercano a los 6 kHz. Esta característica concuerda con el ancho de banda mencionado previamente, que fue seleccionado para resaltar el procesamiento de audio dentro del rango dinámico de las voces humanas. Despues de esa frecuencia, se observa una gradual disminución de la amplitud hasta alcanzar un valor nulo al final del rango de frecuencias.
+
 
 ### 3.1 Transformada de Fourier del audio grabado con laptop
 
@@ -110,6 +112,8 @@ Con la finalidad de permitir el análisis de la respuesta en frecuencia es posib
 <br>
 
 ![Alt text](images/plot_audio_pc.jpg)
+
+La representación gráfica del audio grabado con laptop contempla un comportamiento similar al observado en la grabación con celular. A diferencia del celular, la laptop presenta amplitud desde frecuencia cero, esto demuestra que captó señales fuera del rango de lo que se considera la voz humana. Esta figura presenta un pico de amplitud cecano a los 4.5kHz y a partir de los 5kHz cae en amplitud hasta ser prácticamente nula. Posteriormente a partir de los 40kHz se observa nuevamente amplitud, finalizando el barrido de frecuencia.
 ## 4. Referencias
 [0] R. Alonso. "Relación señal-ruido o SNR en audio: ¿qué es y por qué importa?" HardZone. https://hardzone.es/reportajes/que-es/relacion-senal-ruido-snr-audio/ (accedido el 6 de agosto de 2023). 
 
