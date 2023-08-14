@@ -84,10 +84,11 @@ Se creará una señal de prueba que contenga un barrido de frecuencia de 50 a 5k
 
 Para la obtención de resultados se utilizó un celular y una tablet, posteriormente se utilizó el entorno de matlab para obtener la transformada de Fourier para cada audio, de esta manera se graficó cada grabación y se obtuvo la respuesta en frecuencia respectivamente.
 
-La formulación para la transformada de Fourier es la siguiente:
+La formulación para la transformada de Fourier es la siguiente [10]:
 
-![Alt text](images/fourier_tr.png)
+$$ X(f)= \int_{- \infty}^{\infty}x(t)e^{-j2\pi ft}dt $$
 
+Para que exista la transformada de Fourier, sus coeficientes deben sedr finitos, por ende la función debe ser absolutamente integrable y debe converger. La transformada de Fourier permite la ocupación de todo el espectro radioeléctrico, por ende para este laboratorio se aprovechó mediante técnicas de programación la transformada de fourier para obtener la respuesta en frecuencia de los audios [10].
 ### 3.1 Transformada de Fourier del audio original
 <br>
 
@@ -128,3 +129,6 @@ La formulación para la transformada de Fourier es la siguiente:
 [8] Multisononline J. "Frecuencia de muestreo: Qué es y cómo calcularla".  [En línea]. Disponible en: https://multisononline.com/blog/de-analogico-a-digital-frecuencia-de-muestreo-y-tasa-de-bits-n267. Acceso: 6 de agosto de 2023.
 
 [9] M. J. M. Pelgrom, Analog-to-Digital Conversion, 2nd ed. Dordrecht, Netherlands: Springer Science+Business Media, 2013.
+
+[10] Martínez, M. ¿Qué es la transformada de fourier y para qué sirve?. Nobbot. [En línea] Disponible en: https://www.nobbot.com/que-es-la-transformada-de-fourier-y-para-que-sirve/. Acceso 14 de Agosto de 2023.
+
