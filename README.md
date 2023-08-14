@@ -62,6 +62,7 @@ El ruido termico para una impedancia de 50Ω para una señal a 20kHz a temperat
 El error de cuantización es la técnica de representar una señal analógica con un número digital, en general es la conversión analógica a digital de una señal en específico [9].
 
 ![Imgcuant](images/SenalRuidoCuantificacion4bits.png)
+
 Imagen recuperada de [12]
 
 ### 2.5 ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
