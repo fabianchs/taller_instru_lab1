@@ -62,6 +62,7 @@ El ruido termico para una impedancia de 50Ω para una señal a 20kHz a temperat
 El error de cuantización es la técnica de representar una señal analógica con un número digital, en general es la conversión analógica a digital de una señal en específico [9].
 
 ![Imgcuant](images/SenalRuidoCuantificacion4bits.png)
+Imagen recuperada de [12]
 
 ### 2.5 ¿Para una grabación de audio, el piso de ruido de la señal es predominado por el ruido de cuantización o el ruido térmico?
 Es determinado por el ruido térmico. El ruido térmico o de Johnson es el ruido resultante del movimiento aleatorio de los electrones debido a su agitación térmica. El movimiento da a lugar una corriente aleatoria en consecuencia aparece una tensión de ruido V_r [7].
@@ -139,3 +140,5 @@ La representación gráfica del audio grabado con laptop contempla un comportami
 [10] Martínez, M. ¿Qué es la transformada de fourier y para qué sirve?. Nobbot. [En línea] Disponible en: https://www.nobbot.com/que-es-la-transformada-de-fourier-y-para-que-sirve/. Acceso 14 de Agosto de 2023.
 
 [11] NFON.  Audio de banda ancha. NFON. [En línea]. Disponible en: https://www.nfon.com/es/get-started/cloud-telephony/lexicon/base-de-conocimiento-destacar/audio-de-banda-ancha . Acceso 14 de Agosto de 2023.
+
+[12] Colaboradores de los proyectos Wikimedia. (2005, 13 de noviembre). Ruido de cuantificación - Wikipedia, la enciclopedia libre. Wikipedia, la enciclopedia libre. https://es.wikipedia.org/wiki/Ruido_de_cuantificación 
