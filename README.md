@@ -41,11 +41,9 @@ La metodología para el siguiente laboratorio permite definir los pasos necesari
 ### 2.1 ¿Cómo se mide el signal-to-noise ratio (SNR) para una señalanalógica? Brinde un ejemplo
 Es la proporción existente entre la potencia de salida de la señal que se transmite y la potencia del ruido que interfiere con ella, además, se mide en decibeles [0].
 
-Una forma de medirlo es usando un analizador espectral de la señal con la cual se pueda apreciar la forma de la señal y el ruido en el dominio de la frecuencia, se hace una integral de ambas señales y luego se usa la expresión del SNR para obtener el valor final [1]. A continuacion se muestra la expresion para el calculo del signal-to-noise (SNR).
+Una forma de medirlo es usando un analizador espectral de la señal con la cual se pueda apreciar la forma de la señal y el ruido en el dominio de la frecuencia, se hace una integral de ambas señales y luego se usa la expresión del SNR para obtener el valor final [1]. A continuacion se muestra la expresion para el calculo del signal-to-noise (SNR) [5].
 
 $$SNR = 10\log_{10} \left( \frac{P_{s}}{P_{n}} \right)$$
-
-
 
 ### 2.2 ¿Cuál es el ancho de banda típico para señales de audio? ¿Una señal de audio tiene componente DC?
 
