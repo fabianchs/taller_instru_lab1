@@ -93,12 +93,13 @@ $$ X(f)= \int_{- \infty}^{\infty}x(t)e^{-j2\pi ft}dt $$
 Para que la Transformada de Fourier sea válida, es necesario que sus coeficientes sean finitos. Esto a su vez implica que la función en cuestión debe ser absolutamente integrable y debe converger. Al utilizar la Transformada de Fourier, se logra una ocupación completa del espectro radioeléctrico, lo que permite abarcar un amplio rango de frecuencias. En el contexto de este laboratorio, se ha aplicado técnicas de programación para aprovechar la Transformada de Fourier y así obtener respuestas en frecuencia detalladas de las señales de audio analizadas.[10].
 
 Con la finalidad de permitir el análisis de la respuesta en frecuencia es posible considerar que los celulares y dispositivos electrónicos basan su ancho de banda en un valor cercano al ancho de banda de la voz humana. Lo cual es correcto, desde hace más de 100 años los teléfonos usan un rango de frecuencia limitada de 300Hz a 3.4kHz, a pesar de eso el espectro de frecuencia de la voz humada se extiende desde 50Hz a 8kHz. En la actualidad ese no es el valor de ancho de banda de los dispositivos actuales, a partir de la introducción de telefonía de voz sobre IP y la capacidad en alta transmisión de las redes es posible permitir un mayor espectro de frecuencia, por lo que el ancho de banda de los dispositivos aumentó de 50Hz 7kHz, esto implica una mayor apreciación de la voz en su ancho de banda [11].
+
 ### 3.1 Transformada de Fourier del audio original
 <br>
 
 ![Alt text](images/plot_audio_original.jpg)
 
-### 3.1 Transformada de Fourier del audio grabado con celular
+### 3.2 Transformada de Fourier del audio grabado con celular
 
 <br>
 
@@ -108,14 +109,21 @@ Con la finalidad de permitir el análisis de la respuesta en frecuencia es posib
 En la representación gráfica de la Transformada de Fourier del audio capturado mediante el teléfono celular, se evidencia un incremento en la amplitud alrededor de los 100 Hz, seguido de una disminución en un intervalo cercano a los 6 kHz. Esta característica concuerda con el ancho de banda mencionado previamente, que fue seleccionado para resaltar el procesamiento de audio dentro del rango dinámico de las voces humanas. Despues de esa frecuencia, se observa una gradual disminución de la amplitud hasta alcanzar un valor nulo al final del rango de frecuencias.
 
 
-### 3.1 Transformada de Fourier del audio grabado con laptop
-
-
+### 3.3 Transformada de Fourier del audio grabado con laptop
 <br>
 
 ![Alt text](images/plot_audio_pc.jpg)
 
 La representación gráfica del audio grabado con laptop contempla un comportamiento similar al observado en la grabación con celular. A diferencia del celular, la laptop presenta amplitud desde frecuencia cero, esto demuestra que captó señales fuera del rango de lo que se considera la voz humana. Esta figura presenta un pico de amplitud cecano a los 4.5kHz y a partir de los 5kHz cae en amplitud hasta ser prácticamente nula. Posteriormente a partir de los 40kHz se observa nuevamente amplitud, finalizando el barrido de frecuencia.
+
+### 3.4 Calculo del SNR de la grabacion en el telefono y la computadora
+
+Grabación con el teléfono (SNR = 52,22 dB): En esta grabación, la potencia de la señal deseada (la voz, la música, etc.) es aproximadamente 166724 veces mayor que la potencia del ruido no deseado. Una SNR de 52,22 dB es un valor relativamente alto, lo que sugiere que la señal deseada es clara.
+
+Grabación con la computadora (SNR = 44,97 dB): En esta grabación, la potencia de la señal deseada es aproximadamente 31405 veces mayor que la potencia del ruido. Aunque la SNR es menor que en la grabación del teléfono, sigue siendo un valor respetable. Esto implica que la señal deseada es más fuerte que el ruido, lo que probablemente significa que la calidad de la grabación sigue siendo buena, aunque posiblemente no tan clara como en la grabación del teléfono.
+
+En resumen, ambas grabaciones tienen valores de SNR que indican una buena calidad de señal. Sin embargo, la grabación del teléfono tiene una relación señal-ruido un poco más alta, lo que sugiere que la señal deseada está aún más dominante en esa grabación en particular.
+
 ## 4. Referencias
 [0] R. Alonso. "Relación señal-ruido o SNR en audio: ¿qué es y por qué importa?" HardZone. https://hardzone.es/reportajes/que-es/relacion-senal-ruido-snr-audio/ (accedido el 6 de agosto de 2023). 
 
