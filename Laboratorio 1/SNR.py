@@ -24,11 +24,11 @@ def calculate_snr(audio_path, noise_start, noise_end):
     return snr_db
 
 # Ruta del archivo de audio
-audio_path = 'sinusoidal_wave.wav'
+audio_path = 'cel_1_ruido.wav'
 
 # Definir el inicio y final de la sección del audio que contiene solo ruido
-noise_start = 0  # Puedes ajustar esto según el tiempo en segundos
-noise_end = 10    # Puedes ajustar esto según el tiempo en segundos
+noise_start = 10 # Puedes ajustar esto según el tiempo en segundos
+noise_end = 15  # Puedes ajustar esto según el tiempo en segundos
 
 # Calcular el SNR
 snr = calculate_snr(audio_path, noise_start, noise_end)
